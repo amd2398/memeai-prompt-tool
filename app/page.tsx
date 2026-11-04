@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { requireAdmin } from "@/lib/admin";
 import ThemeSwitcher from "@/app/theme-switcher";
+export const instant = false;
 
 export default async function HomePage() {
   const user = await requireAdmin();

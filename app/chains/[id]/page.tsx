@@ -5,6 +5,7 @@ import { getAdminDatabase, requireAdmin } from "@/lib/admin";
 import { updateStep, deleteStep, moveStep } from "@/lib/chain-actions";
 import DeleteChainButton from "./DeleteChainButton";
 import ThemeSwitcher from "@/app/theme-switcher";
+export const instant = false;
 
 const fieldStyle =
     "w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-black outline-none focus:border-black dark:border-gray-700 dark:bg-black dark:text-white dark:focus:border-white";

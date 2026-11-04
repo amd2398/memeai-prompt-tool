@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { getAdminDatabase, requireAdmin } from "@/lib/admin";
 import ThemeSwitcher from "@/app/theme-switcher";
+export const instant = false;
 
 export default async function ChainsPage() {
     await requireAdmin();

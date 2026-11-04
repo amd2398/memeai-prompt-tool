@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getAdminDatabase, requireAdmin } from "@/lib/admin";
+export const instant = false;
 
 export default async function NewChainPage() {
     await requireAdmin();
